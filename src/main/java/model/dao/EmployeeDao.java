@@ -28,7 +28,7 @@ public class EmployeeDao {
 			property.load(fis);
 			String url= property.getProperty("url");
 			
-//			load the driver
+//		load the driver
 			String driver=property.getProperty("driver");
 			Class.forName(driver);
 			System.out.println("driver loaded");

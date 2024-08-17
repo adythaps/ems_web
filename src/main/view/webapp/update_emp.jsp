@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%
+String id= request.getParameter("id");
+String name= request.getParameter("name");
 
+%>
 </body>
 </html>
