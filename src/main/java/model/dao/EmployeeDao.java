@@ -35,7 +35,6 @@ public class EmployeeDao {
 
 			
 //		establish connection
-		
 			con=DriverManager.getConnection(url,property);
 			System.out.println("Connection done");
 //			step 3 statement
